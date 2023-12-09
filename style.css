@@ -264,3 +264,55 @@ a{
 	top: 68.67px;
 	cursor: pointer;
 }
+
+/*-- USERS --*/
+.users-container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 12px;
+
+	margin-top: 40px;
+}
+.users-container__icons{
+	position: relative;
+	width: 101px;
+	height: 38px;
+}
+.first-icon{
+	position: absolute;
+	left: 0;
+	z-index: 5;
+}
+.sec-icon{
+	position: absolute;
+	left: 20px;
+	z-index: 4;
+}
+.therd-icon{
+	position: absolute;
+	left: 42px;
+	z-index: 3;
+}
+.four-icon{
+	position: absolute;
+	left: 63px;
+	z-index: 1;
+}
+.four-icon__plus{
+	position: absolute;
+	left: 72.5px;
+	top: 9px;
+	z-index: 2;
+}
+.users-container__text{
+	color: #707070;
+	font-family: Roboto;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.users-container__selected-text{
+	color: #FD905A;
+}
