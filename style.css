@@ -121,7 +121,7 @@ a{
 	padding: 9px 23px;
 	justify-content: center;
 	align-items: center;
-	border:none;
+	border: none;
 
 	border-radius: 20px;
 	background: #48B774;
@@ -133,5 +133,134 @@ a{
 	font-weight: 500;
 	line-height: normal;
 
+	cursor: pointer;
+}
+
+/*-- MAIN BODY --*/
+.background-container{
+	max-width: 1400px;
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+    padding: 0 149px 40px;
+    margin: auto;
+	box-sizing: border-box;
+}
+.main-frame{
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 120px;
+}
+.main-frame__header{
+	color: #2D2D2D;
+	font-family: Poppins;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 65px;
+
+	padding: 0;
+	margin: 0;
+}
+.first-text{
+	max-width: 375px;	
+}
+.second-text{
+	max-width: 474px;
+	height: 60px;
+}
+.selected-header{
+	color: #FF8345;
+}
+.main-frame__middle-text{
+	max-width: 444px;
+
+	color: #7C7C7C;
+	font-family: Poppins;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 26px;
+
+	margin-top: 22px;
+}
+.main-frame__btn{
+	display: flex;
+	height: 46px;
+	padding: 8px 22px;
+	justify-content: center;
+	align-items: center;
+
+	border-radius: 30px;
+	background: #48B774;
+
+	color: #FFF;
+	font-family: Poppins;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+
+	cursor: pointer;
+	border: none;
+
+	margin-top: 30px;
+}
+.container-for-search-line{
+	position: relative;
+}
+.search-line{
+	width: 597px;
+	height: 62px;
+
+	border-radius: 100px;
+	background: #FFF;
+	box-shadow: 0px 20px 30px 0px rgba(222, 222, 222, 0.25);
+
+	color: #A1A1A1;
+	font-family: Roboto;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.16px;
+
+	padding: 21px 40px 22px;
+	box-sizing: border-box;
+	border: none;
+	margin-top: 50px;
+}
+.search-line__text{
+	color: #A1A1A1;
+	font-family: Roboto;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.16px;
+}
+
+.container-for-search-line__circle{
+	position: absolute;
+	right: 6px;
+	top: 54px;
+
+	width: 55px;
+	height: 55px;
+	border-radius: 50px;
+	background: #48B774;
+	cursor: pointer;
+}
+.search-icon{
+	width: 25.667px;
+	height: 25.667px;
+
+	position: absolute;
+	right: 20.67px;
+	top: 68.67px;
 	cursor: pointer;
 }
